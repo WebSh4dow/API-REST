@@ -28,7 +28,7 @@ public class Sensor {
     private LocalDateTime deadLine;
     @CreationTimestamp
     @Column(nullable = false,updatable = false)
-    private Date dataRealizacao;
+    private LocalDateTime dataRealizacao;
     @UpdateTimestamp
     private LocalDateTime dataAtualizacao;
 }

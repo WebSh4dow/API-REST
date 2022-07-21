@@ -2,6 +2,7 @@ package com.Teste.Jarmison.SensorWebAPI.service;
 
 import com.Teste.Jarmison.SensorWebAPI.entity.Sensor;
 import com.Teste.Jarmison.SensorWebAPI.repository.SenseRepository;
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
